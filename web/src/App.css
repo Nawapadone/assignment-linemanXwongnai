@@ -1,0 +1,40 @@
+.App {
+  /* text-align: center; */
+  padding-top: 4em;
+}
+.t_border{
+  border-style: solid;
+  border-color: coral;
+}
+input {
+  text-align: center;
+}
+.form-search{
+  width: 90%;
+  border: 0;
+  border-radius: 3px;
+  border-bottom: 2px solid #efefef;
+  margin-bottom: 1.35em;
+  transition: 0.2s
+}
+.form-search:focus{
+  outline: none;
+  border-bottom: 3px solid #2c9cdb;
+}
+.header{
+  color:#2c9cdb;
+  font-weight: 400;
+  font-size:60px;
+  user-select: none;
+}
+.p-trips{
+  margin-bottom: 3em;
+}
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  src:  url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;400&display=swap');
+}
+body {
+  font-family: 'Prompt', sans-serif;;
+}
