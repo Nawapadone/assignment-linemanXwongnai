@@ -14,9 +14,9 @@
 
 * Using in the present
     ```express
-        @app.route('/') # Make sure server is running
-        @app.route('/trips') # Query all trips
-        @app.route('/api/trips') # Search keyword in trips    
+        @app.get('/') # Make sure server is running
+        @app.get('/trips') # Query all trips
+        @app.get('/api/trips') # Search keyword in trips    
 
 # How to run assignment-linemanXwongnai 
 * Use Docker compose
